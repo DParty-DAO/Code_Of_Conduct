@@ -59,7 +59,7 @@ git commit -m "feat(develop_perpetual): added frontend price chart component for
 
 # Branch Management
 
-![img](https://www.flagship.io/wp-content/uploads/gitflow-branching-strategy.png)
+<img src="./pics/branch_management.png" alt="img" style="zoom:80%;" />
 
 - **master**: Only Owner of the repo has the authority to merge to Master. Merged when a major milestone or product milestone is finished.
 - **develop**: Main Develop Branch, anything being developped should be merged to this branch first for testing, then Only if its working, then will be merged to `release` branch. All the Unit tests, linting etc will be done here.
@@ -85,7 +85,10 @@ git commit -m "feat(develop_perpetual): added frontend price chart component for
    <img src="./pics/pull_request_page.png" style="zoom:33%;" />
 
 7. If there is no merge conflict, then the screen should look like below: 
-   <img src="./pics/no_merge_conflict.png" style="zoom:50%;" />
+
+   <img src="./pics/no_merge_conflict.png" style="zoom:40%;" />
    If there is merge conflict, then the screen should look like below:
-   <img src="https://media.cheggcdn.com/media%2F30f%2F30fa09ea-f2ed-4cef-ba7b-07d5374b752a%2FphpJnvLR6.png" style="zoom: 50%;" />
-8. Once there is no problem with the merge, Inform Your Reviewer to review your Pull Request, then the reviewer will approve the merge.
+
+   <img src="./pics/merge_conflict.png" style="zoom: 80%;" />
+
+8. **Once there is no problem with the merge, Inform Your Reviewer to review your Pull Request, then the reviewer will approve the merge.**
